@@ -1,0 +1,55 @@
+.footer {
+    &__list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__item {
+        width: 25%;
+        color: #444444;
+    }
+
+    &__logo {
+        font-size: 16px;
+        line-height: 20px;
+        color: #FF4E50;
+        font-weight: normal;
+    }
+
+    &__wrap {
+        padding-bottom: 36px;
+    }
+
+    &__company-link {
+        display: flex;
+        flex-direction: column;
+        color: #999999;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    &__dsg {
+        font-size: 10px;
+        line-height: 12px;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 1px;
+        color: #CCCCCC;
+        padding: 10px;
+
+    }
+
+    &__dsg-img {
+        width: 110px;
+        height: 24px;
+    }
+
+    .hr {
+        border: none;
+        background-color: #FF4E50;
+        height: 1px;
+        margin-bottom: 38px;
+    }
+}

@@ -1,0 +1,131 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title DREAMSHARE
+  link(href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='css/style.min.css')
+header.header
+  .container
+    .header__wrap
+      a.header__logo(href='') DREAMSHARE
+      .header__acc
+        a.header__acc-login.t17(href='') Log In
+        a.header__acc-signin.t17(href='') Sign In
+    a.header__logo-phone(href='') DREAMSHARE
+main.main
+  section.baner.darkened(style='background-image: url(media/img/Bitmap.svg);')
+    .container
+      .baner__wrap
+        .baner__title
+          | SHARE YOUR 
+          br
+          |  HOLIDAY DREAM
+        .baner__subtitle And find the perfect partner to fullfill it
+        a.baner__link.link(href='') Find your holiday partner
+  section.steps
+    .container
+      h2.h2 How Dreamshare works?
+      ul.steps__wrap
+        li.steps__item.darkened
+          .steps__img
+            img(src='media/img/Step1.svg' alt='')
+          .steps__text
+            a.link.steps__link(href='') STEP 1
+            p.steps__title Sed leo enim, condimentum
+            p.steps__subtitle
+              | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+        li.steps__item.darkened
+          .steps__img
+            img(src='media/img/Step2.svg' alt='')
+          .steps__text
+            a.link.steps__link(href='') STEP 2
+            p.steps__title Morbi velit risus
+            p.steps__subtitle
+              | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+        li.steps__item.darkened
+          .steps__img
+            img(src='media/img/Step3.svg' alt='')
+          .steps__text
+            a.link.steps__link(href='') STEP 3
+            p.steps__title Sed leo enim, condimentum
+            p.steps__subtitle
+              | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+  section.partners
+    .container
+      h2.h2 Meet a partner for your best holiday
+      ul.partners__list
+        li.partners__item
+          .partners__photo(style='background-image: url(media/img/brad.png);')
+            a.partners__border(href='' style=' background-color: #FF4E50;')
+              .partners__icon(style=' background-image: url(media/icons/music.png);')
+          p.partners__item-name.t17 Bradley Hunter
+          p.partners__item-about Based in Chicago. I love playing tennis and loud music.
+        li.partners__item
+          .partners__photo(style='background-image: url(media/img/maria.png);')
+            a.partners__border(href='' style=' background-color: #19D4CA;')
+              .partners__icon(style=' background-image: url(media/icons/brush.png);')
+          p.partners__item-name.t17 Marie Bennett
+          p.partners__item-about Currently living in Colorado. Lover of art, languages and travelling.
+        li.partners__item
+          .partners__photo(style='background-image: url(media/img/diana.png);')
+            a.partners__border(href='' style=' background-color: #FFA710;')
+              .partners__icon(style=' background-image: url(media/icons/camera.png);')
+          p.partners__item-name.t17 Diana Wells
+          p.partners__item-about
+            | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+        li.partners__item
+          .partners__photo(style='background-image: url(media/img/christ.png);')
+            a.partners__border(href='' style=' background-color: #667DF3;')
+              .partners__icon(style=' background-image: url(media/icons/airplane.png);')
+          p.partners__item-name.t17 Christopher Pierce
+          p.partners__item-about Star Wars fanatic. I have a persistent enthusiasm to create new things.
+      .partners__others
+        a.partners__others-link.t17(href='') See other partners
+  section.services
+    .container
+      h2.h2 Discover holiday activity ideas
+      ul.services__list
+        li.services__item.w1-3.darkened(style="background-image: url('media/img/sport.png');")
+          p.services__item-text Sports and Activis
+        li.services__item.w1-3.darkened(style="background-image: url('media/img/health.png');")
+          p.services__item-text Wellness and Health
+        li.services__item.w1-3.darkened(style="background-image: url('media/img/sport2.png');")
+          p.services__item-text Extreme Sports and Expeditions
+        li.services__item.w1-3.darkened(style="background-image: url('media/img/game.png');")
+          p.services__item-text Games
+        li.services__item.w2-3.darkened(style="background-image: url('media/img/culture.png');")
+          p.services__item-text Culture and Education
+        li.services__item.w2-3.darkened(style="background-image: url('media/img/relax.png');")
+          p.services__item-text Enjomet and Relaxation
+        li.services__item.w1-3.darkened(style="background-image: url('media/img/travell.png');")
+          a.services__item-text(href='') Travelling
+  section.interest
+    .container
+      h2.h2 Create your holiday activity
+      h3.h3 Hi! What are your holiday interests?
+      form.interest__wraper
+        input.interest__search(type='text' placeholder='Enter your insterests')
+        button.interest__btn.link.t17(type='submit') Search partners
+footer.footer
+  hr.hr
+  .container
+    .footer__wrap
+      .footer__list
+        .footer__item
+          a.footer__logo(href='') DREAMSHARE
+        .footer__item.t17
+          | Company
+          .footer__company-list
+            a.footer__company-link(href='') About
+            a.footer__company-link(href='') Contact
+            a.footer__company-link(href='') Press
+            a.footer__company-link(href='') Blog
+            a.footer__company-link(href='') Terms and Privacy
+            a.footer__company-link(href='') Help
+        .footer__item.footer__partners.t17
+          | Partners
+        .footer__item
+          .footer__dsg DESIGNED BY
+          .footer__dsg-img(class='style=' style=" background-image: url('media/img/designe.png');")

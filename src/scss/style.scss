@@ -1,0 +1,85 @@
+@import 'blocks/baner';
+@import 'blocks/footer';
+@import 'blocks/header';
+@import 'blocks/interest';
+@import 'blocks/partners';
+@import 'blocks/services';
+@import 'blocks/steps';
+
+@import 'media';
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.t17 {
+    line-height: 17px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    background: #FF4E50;
+    border-radius: 40px;
+}
+
+.link:hover {
+    background: white;
+    color: black;
+}
+
+.h2 {
+    padding: 89px 0 35px 0;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    text-align: center;
+}
+
+.h3 {
+    padding-bottom: 25px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.darkened {
+    position: relative;
+}
+
+.darkened::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}

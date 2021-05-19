@@ -1,0 +1,180 @@
+@media(max-width: 767px) {
+
+    .h2 {
+        margin-bottom: 35px;
+        padding: 35px 10px 0 10px;
+    }
+
+    .baner__title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .baner__subtitle {
+        font-size: 18px;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo-phone {
+        display: block;
+
+
+    }
+
+    .header__acc {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .partners__list {
+        display: block
+    }
+
+    .partners__item {
+        width: 100%;
+        padding: 0 20px 10px 20px;
+    }
+
+    .steps__wrap {
+        display: block
+    }
+
+    .steps__item {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .services__list {
+        display: block;
+    }
+
+    .services__item.w1-3,
+    .services__item.w2-3 {
+        width: 100%;
+        background-size: cover;
+        margin: 10px auto;
+        min-height: 120px;
+        text-align: center;
+    }
+
+    .footer__list {
+        margin: 0 auto;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .footer__item {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .footer__dsg-img {
+        padding: 20px;
+        margin: 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+
+    .interest__btn {
+        margin-top: 20px;
+    }
+
+    .h3 {
+        padding: 25px 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .baner {
+        min-height: 540px;
+    }
+
+    .baner__wrap {
+        margin: 0 auto;
+        margin-top: 175px;
+    }
+
+    .header__logo-phone {
+        padding-top: 110px;
+
+    }
+
+    .hr {
+
+        margin-bottom: 19px;
+    }
+
+    .steps__item {
+        margin-bottom: 10px;
+
+    }
+
+    .interest__btn {
+        width: 240px;
+        height: 40px;
+    }
+
+    .interest__wraper {
+
+        margin-bottom: 40px;
+    }
+
+    .footer__item {
+        margin-top: 13px;
+    }
+
+    .footer__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .footer__company-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 200px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .footer__company-link {
+        margin-right: 5px;
+    }
+
+    .partners__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 40px;
+        align-items: center;
+
+    }
+
+    .partners__item {
+        width: 100%;
+        padding: 0 10px 10px 10px;
+        text-align: center;
+    }
+
+    .partners__item-about {
+        width: 220px;
+        color: #666666;
+        padding-top: 12px;
+        font-family: 'Roboto';
+        font-weight: 300;
+
+        margin: 0 auto;
+        text-align: center;
+    }
+}
